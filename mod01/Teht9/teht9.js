@@ -14,9 +14,9 @@ if (number <= 1) {
   }
 
 if (primeNum) {
-  document.write(number + " is a prime number.");
+  document.write(number + ' is a prime number.');
 } else {
-    document.write(number + " is not a prime number.");
+    document.write(number + ' is not a prime number.');
   }
 
 
