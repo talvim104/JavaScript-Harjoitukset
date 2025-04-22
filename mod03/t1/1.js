@@ -1,14 +1,11 @@
 'use strict';
 
-//etsitään html sivulta ul-tag, jonka id on target
-const ulElem = document.querySelector('#target');
+const targetElement = document.getElementById("target");
 
-const html = `
-    <li>First item</li>
-    <li>Second item</li>
-    <li>Third item</li> `;
+targetElement.innerHTML = `
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+`;
 
-ulElem.innerHTML =html;
-
-//asetetaan listalle css-luokkamääritys
-ulElem.classList.add('my-list');
+targetElement.classList.add("my-list");
