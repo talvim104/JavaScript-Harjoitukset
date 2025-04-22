@@ -1,6 +1,6 @@
 'use strict';
 
-const targetElement = document.getElementById("target");
+const targetElement = document.getElementById('target');
 
 targetElement.innerHTML = `
   <li>First item</li>
@@ -8,4 +8,4 @@ targetElement.innerHTML = `
   <li>Third item</li>
 `;
 
-targetElement.classList.add("my-list");
+targetElement.classList.add('my-list');
